@@ -1,0 +1,24 @@
+@tailwind utilities;
+.header-class{
+    @apply bg-gradient-to-t overflow-hidden  mx-auto rounded-2xl mt-20 from-serenity   h-screen w-11/12 flex justify-start py-36 px-10 
+}
+
+@layer utilities{
+.h1-name{
+    @apply font-bakbakone lg:text-9xl md:4xl text-jetBlack
+}
+
+}
+
+.h5-info{
+    @apply text-4xl  font-bakbakone px-3
+}
+
+
+.btn3 {
+    @apply h-16 w-24 px-2 py-4 bg-blueGray rounded-lg text-jetBlack text-xl animate-pulse
+}
+
+.alin{
+    @apply py-8
+}

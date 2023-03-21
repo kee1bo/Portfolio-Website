@@ -1,0 +1,7 @@
+.foot {
+    @apply mx-auto mt-32 w-screen h-full bg-gradient-to-t from-serenity to-serenity 
+}
+
+.info{
+    @apply flex justify-center py-16
+}

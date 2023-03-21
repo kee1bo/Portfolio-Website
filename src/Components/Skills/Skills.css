@@ -1,0 +1,17 @@
+.arrange{
+    @apply flex justify-center py-20 h-1/2 
+}
+
+
+.h1-g{
+    @apply flex justify-center text-6xl text-jetBlack  font-raleway
+}
+
+
+.iconsd{
+    @apply py-20 flex flex-row gap-4 text-6xl text-jetBlack 
+}
+
+.butn-ic {
+    @apply px-2 py-2 bg-gradient-to-r   hover:text-jetBlack animate-bounce hover:animate-none  transition-all duration-300 ease-linear rounded-2xl
+}

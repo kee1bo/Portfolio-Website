@@ -1,0 +1,48 @@
+.projs{
+    @apply relative overflow-x-scroll bg-gradient-to-r mx-auto from-serenity to-serenity h-full w-11/12  rounded-xl 
+}
+
+.projs-body{
+    @apply flex justify-center relative
+}
+
+.h1-m{ 
+    @apply text-6xl font-raleway
+}
+
+.templatesgrid{
+    @apply justify-items-center  py-10 gap-8  grid lg:grid-cols-2 grid-cols-1 place-items-center 
+
+}
+
+.project{
+    @apply shadow-sm h-96 w-full bg-gradient-to-t from-blueGray to-blueGray rounded-lg 
+      
+}
+
+.icondiv {
+    @apply flex text-3xl gap-2 flex-row justify-center 
+}
+.butn{
+    @apply hover:scale-125 hover:text-jetBlack transition-all duration-300 ease-linear rounded-2xl
+}
+.h1-n{
+    @apply text-2xl mt-3 font-raleway text-jetBlack  flex justify-center h-12 w-full bg-sky-100
+}
+
+.images{
+    @apply flex  
+}
+
+
+.abstr{
+    @apply flex justify-center 
+}
+
+.h2-abstr{
+    @apply flex justify-center text-2xl  text-jetBlack  
+}
+
+.para-abstr{
+    @apply flex flex-col py-2 px-6 text-xl
+}

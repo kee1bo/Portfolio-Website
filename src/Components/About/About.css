@@ -1,0 +1,11 @@
+.about-sec{
+    @apply h-full mt-20 w-10/12 rounded-xl mx-auto bg-gradient-to-t  from-serenity  overflow-x-auto
+}
+
+.h1-about{
+    @apply font-raleway text-6xl flex justify-center py-8 text-jetBlack 
+}
+
+.para{
+    @apply flex justify-center font-raleway text-4xl px-12 py-6 
+}

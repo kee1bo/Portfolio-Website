@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+
+.ini{
+    @apply bg-gradient-to-tr from-serenity  to-serenity h-full w-screen
+  }
